@@ -49,3 +49,4 @@ On Windows, `run_local.bat` builds the mesher and runs the dev server in Docker 
 GNU Affero General Public License v3.0 or later; see [LICENSE](LICENSE). TetGen is AGPL-3.0,
 Manifold is Apache-2.0 and three.js is MIT. Release builds require `VITE_SOURCE_URL` so the page
 links to its source.
+
