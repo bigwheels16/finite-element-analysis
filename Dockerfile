@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certifi
 WORKDIR /app
 COPY scripts/build-tetgen.sh scripts/
 COPY src/mesher/tetgen_wrapper.cpp src/mesher/
-RUN ./scripts/build-tetgen.sh
+RUN bash scripts/build-tetgen.sh
 
 # Build stage
 FROM node:22-slim AS builder
